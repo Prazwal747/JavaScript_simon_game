@@ -15,7 +15,14 @@ $(document).ready(function(){
     console.log("any Key Pressed");
     nextSequence();
   })
+  $(".start-btn").click(()=>{
+  console.log("button for mobile");
+  nextSequence();
 })
+
+})
+
+
 
 
 function nextSequence() {
